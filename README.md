@@ -3,7 +3,7 @@
 A CPU & Memory monitor for Gnome Extension Argos
 
 ## General Purpose
-The program scan the active load of each CPU and the memory.
+The program scan the active load of each CPU and the memory, display a general Health Smiley on the status bar. By accessing to details each CPU and the memory are checked.
 At the beginnig of the script, it's necessary to customlize the parameters and the limits.
 
 ## Installation
@@ -16,10 +16,10 @@ The script file must be installed in standard Argos folder:
 
 ## Parameters
 The parameters are in mais file:
-NumberProcessors=4			# The number of processors the machine have
-CpuWarning=50				# The CPU warning theshold
+NumberProcessors=4		# The number of processors the machine have
+CpuWarning=50			# The CPU warning theshold
 CpuAlert=80				# The CPU alert theshold
-MemWarning=50				# The memory warning theshold
+MemWarning=50			# The memory warning theshold
 MemAlert=80				# The memory alert theshold
 NbWarning=2				# General Warning from 1 to this value, General Alert if more
 
