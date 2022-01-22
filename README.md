@@ -7,7 +7,7 @@ The program scan the active load of each CPU and the memory, display a general H
 At the beginnig of the script, it's necessary to customlize the parameters and the limits.
 
 ## Installation
-This repository has only one file: CpuMem.30s.sh.
+This repository has only one file: CpuMem.30s.sh .
 The Scanning Interval depend of the file name (30s = 30 seconds, 1m = 1 minute...); it's a standard in Argos extensions.
 The parameters are described in the script
 The script file must be installed in standard Argos folder:
